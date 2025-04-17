@@ -18,7 +18,7 @@ public class Main {
         println("1. Reproducir una canción");
         println("2. Reproducir un podcast");
         println("3. Reproducir un video");
-        print("Opcion: ");
+        System.out.print("Opcion: ");
         int opcion = teclado.nextInt();
         switch (opcion){
             case 1:
@@ -56,7 +56,5 @@ public class Main {
     static void println(String msj){
         System.out.println(msj);
     }
-    static void print(String msj){
-        System.out.print(msj);
-    }
+
 }
