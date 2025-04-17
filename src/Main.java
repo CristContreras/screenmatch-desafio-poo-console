@@ -27,7 +27,7 @@ public class Main {
                 unaCancion.setArtista("Guns and Roses");
                 unaCancion.setGenero("Rock");
                 unaCancion.setDuracion(3);
-                unaCancion.setAñoLanzamiento(2002);
+                unaCancion.setAnioLanzamiento(2002);
                 unaCancion.meGusta();
                 reproductor.reproducirElemento(unaCancion);
                 println("Volumen: "+reproductor.getVolumen());

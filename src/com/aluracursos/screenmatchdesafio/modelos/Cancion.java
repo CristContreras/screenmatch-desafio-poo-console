@@ -2,7 +2,7 @@ package com.aluracursos.screenmatchdesafio.modelos;
 
 public class Cancion extends Audio {
     private String Artista;
-    private int AñoLanzamiento;
+    private int AnioLanzamiento;
     private String Genero;
 
     //Agregar clase Video para implementar una interfaz?
@@ -11,7 +11,7 @@ public class Cancion extends Audio {
         super.reproducir();
         System.out.println("Artista: "+getArtista());
         System.out.println("Genero: "+getGenero());
-        System.out.println("Año lanzamiento: "+getAñoLanzamiento());
+        System.out.println("Año lanzamiento: "+ getAnioLanzamiento());
     }
 
     public String getArtista() {
@@ -22,12 +22,12 @@ public class Cancion extends Audio {
         Artista = artista;
     }
 
-    public int getAñoLanzamiento() {
-        return AñoLanzamiento;
+    public int getAnioLanzamiento() {
+        return AnioLanzamiento;
     }
 
-    public void setAñoLanzamiento(int añoLanzamiento) {
-        AñoLanzamiento = añoLanzamiento;
+    public void setAnioLanzamiento(int anioLanzamiento) {
+        AnioLanzamiento = anioLanzamiento;
     }
 
     public String getGenero() {
